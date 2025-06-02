@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hentai Generator</title>
+        <meta charset="UTF-8">
+        <style>
+            .container {
+                display: flex;
+            }
+            main {
+                margin-right: 20px;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <main>
+                <dl>
+                    <dt><h1>Hentai Generator</h1></dt>
+                    <dd><input type="button" name="gen" value="Generate" onclick="generateImage()"></dd>
+                </dl>
+            </main>
+            <aside>
+                <img id="image" src="" alt="Generated Image" width="450">
+            </aside>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
