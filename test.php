@@ -1,10 +1,4 @@
-<!DOCTYPE html>
 <html>
-    <head>
-    	<title>Hentai Gen</title>
-    	<meta charset="UTF-8">
-    </head>
-    <body>
     	<?php
             $url = 'https://pixiv.perennialte.ch/users/6049901/illustrations?mode=show&page=1';
 
@@ -27,5 +21,4 @@
             header('Content-Type: application/json');
             echo json_encode($images);
     	?>
-    </body>
 </html>
